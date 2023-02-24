@@ -1,0 +1,16 @@
+[package]
+name = "aliyun-api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sha1 = "0.10"
+hmac = "0.12"
+digest = "0.10"
+base64 = "0.21"
+chrono = "0.4"
+reqwest = "0.11"
+tokio = { version = "^1.19", features = ["macros","rt","rt-multi-thread"]}
+quick-xml = {version = "0.27", features = ["serialize"]}
